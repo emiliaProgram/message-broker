@@ -1,4 +1,4 @@
-```markdown
+
 # PHP RabbitMQ Messaging Application with Retry and Dead Letter Queue
 
 This is a simple PHP application demonstrating how to use RabbitMQ for message queuing with retry logic and a Dead Letter Queue (DLQ). The application consists of a producer that sends messages, a consumer that processes messages with retry capabilities, and a DLQ consumer that handles messages that have failed processing after maximum retries.
